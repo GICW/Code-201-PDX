@@ -1,0 +1,12 @@
+      section {
+        overflow:hidden;
+
+        img:first-child {
+          float: left;
+          width: 40px;
+          padding-right: 25px;
+        }
+        img:last-child {
+          float:right;
+        }
+      }

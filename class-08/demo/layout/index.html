@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Layout</title>
+    <style>
+      section {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: .5em;
+        justify-content: space-between;
+        background: #eee;
+        border: 1px solid red;
+        height: 300px;
+      }
+
+      div {
+        border: 1px solid blue;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;;
+        align-items: center;
+
+        height: 75px;
+        width: 150px;
+      }
+
+      div:last-child {
+        height: 50px;
+        flex:1;
+      }
+
+      p {
+        width: 50%;
+      }
+
+      nav {
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display:flex;
+          flex-direction: row-reverse;
+          gap: 1em;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav>
+
+      <ul>
+        <li>Home</li>
+        <li>Sales</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <section>
+      <div>
+        <p>
+          All good dogs go to heaven
+        </p>
+        </div>
+      <div>
+        <p>B1</p>
+        <p>B2</p>
+        <p>B3</p>
+        <p>B4</p>
+      </div>
+      <div>
+        <p>C</p>
+      </div>
+    </section>
+  </body>
+</html>

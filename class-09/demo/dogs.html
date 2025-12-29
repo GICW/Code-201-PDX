@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dogs</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dogs</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>All About The Dogs</h2>
+      <table id="dogs">
+        <thead id="tableHeader"></thead>
+        <tbody id="tableBody"></tbody>
+        <tfoot id="tableFooter"></tfoot>
+      </table>
+
+      <button id="fetch">Fetch the Ball</button>
+      <div id="ball"></div>
+
+      <form id="dogForm">
+
+        <input type="text" name="name" placeholder="Dog's Name" />
+        <input type="text" name="breed" placeholder="Dog's Breed" />
+        <input type="text" name="color" placeholder="Dog's Color" />
+
+        <label>
+          <input type="checkbox" name="likesDogs" />
+          <span>Likes Dogs</span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="likesCats" />
+          <span>Likes Cats</span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="likesAdults" />
+          <span>Likes Adults</span>
+        </label>
+
+        <label>
+          <input type="checkbox" name="likesKids" />
+          <span>Likes Kids</span>
+        </label>
+
+        <button type="submit">Add Dog</button>
+
+      </form>
+
+    </main>
+  </body>
+  <script src="js/dogs.js"></script>
+  <script src="js/app.js"></script>
+</html>

@@ -1,0 +1,36 @@
+.
+├── courses
+│   ├── code-102
+│   │   └── seattle-code-102d62
+│   │       ├── README.md
+│   │       ├── class-01
+│   │           └── README.md
+│   │       └── ... (more class folders here)
+│   │       └── class-10
+│   │           └── README.md
+│   └── code-201
+│       ├── about-me
+│       │   └── index.html
+│       ├── salmon-cookies
+│       │   └── index.html
+│       ├── odd-duck-products
+│       │   └── index.html
+│       └── seattle-code-201d11
+│   │       ├── README.md
+│   │       ├── class-01
+│   │           └── README.md
+│   │       └── ... (more class folders here)
+│   │       └── class-10
+│   │           └── README.md
+│   |       ├── configs
+│   |       └── resources.md
+├── reading-notes
+│   ├── README.md
+│   ├── code-102
+│   │   ├── class-02.md
+│   │   └── class-03.md
+│   └── code-201
+│   │   ├── class-02.md
+│   │   └── class-03.md
+
+83 directories, 108 files

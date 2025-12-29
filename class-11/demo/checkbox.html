@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    body {
+      background: #eee;
+      color: #111;
+      font-size: 2em;
+    }
+
+    body.dark {
+      background: #444;
+      color: ivory;
+    }
+
+    input[type="checkbox"]:checked+span {
+      text-decoration: line-through;
+    }
+
+    span:hover {
+      color: blue;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <button id="darkMode">Toggle Dark Mode</button>
+
+  <form>
+    <label>
+      <input type="checkbox" name="milk" value="1oz" />
+      <span>1 Ounce</span>
+    </label>
+  </form>
+
+</body>
+
+<script>
+  let state = {
+    mode: "light"
+  };
+
+  let toggleButton = document.getElementById("darkMode");
+  // document.getElementsByTagName returns an array, let's get the first element
+  // let body = document.getElementsByTagName("body")[0];
+  let body = document.querySelector("body");
+
+  toggleButton.addEventListener("click", function (event) {
+    // Ternary Operator
+    // (condition) ? (if true) : (if false)
+    state.mode = (state.mode === "light") ? "dark" : "light"
+    body.className = state.mode;
+  });
+
+</script>
+
+</html>
