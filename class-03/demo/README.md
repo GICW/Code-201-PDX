@@ -5,8 +5,8 @@
 
 ## LightHouse Report
 
-### Monday
+### Tuesday
 ![Lighthouse](./lighthouse-report.png)
 
-### Tuesday
+### Thursday
 ![Lighthouse](./lighthouse-report.png)
