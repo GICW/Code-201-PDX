@@ -94,6 +94,8 @@ This class is a highly conceptual. We will be diving deeper into **control flow*
 
 12. Example of when a loop is useful in JavaScript
 
+------------------------------------------------------------------------------------
+
 ## End of Class Review Questions 
 
 1. What is an array?
