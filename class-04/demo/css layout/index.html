@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Layout Demo</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- FIXED POSITION DEMO -->
+  <div class="fixed-box">I'm fixed!</div>
+
+  <div id="main">
+
+    <h1>CSS Layout Demo</h1>
+    <p>Resize the browser and watch what happens.</p>
+
+    <!-- DISPLAY -->
+    <h2>Display: Block vs Inline</h2>
+
+    <div class="block">I am a block element</div>
+    <div class="block">I take full width</div>
+
+    <p>
+      This is text with an
+      <span class="inline">inline span</span>
+      inside it.
+    </p>
+
+    <!-- BOX MODEL -->
+    <h2>Box Model</h2>
+
+    <div class="simple">Simple box (300px)</div>
+    <div class="fancy">Fancy box (padding + border)</div>
+
+    <!-- POSITION -->
+    <h2>Position</h2>
+
+    <div class="relative-box">
+      Relative Parent
+      <div class="absolute-box">
+        Absolute Child
+      </div>
+    </div>
+
+    <!-- FLOAT -->
+    <h2>Float</h2>
+
+    <div class="clearfix">
+      <div class="float-box">Float 1</div>
+      <div class="float-box">Float 2</div>
+      <p>This text wraps around floats.</p>
+    </div>
+
+    <!-- INLINE-BLOCK -->
+    <h2>Inline-Block</h2>
+
+    <div class="inline-block">Box A</div>
+    <div class="inline-block">Box B</div>
+    <div class="inline-block">Box C</div>
+
+    <!-- FLEXBOX -->
+    <h2>Flexbox</h2>
+
+    <div class="flex-container">
+      <div class="flex-item">One</div>
+      <div class="flex-item">Two</div>
+      <div class="flex-item">Three</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

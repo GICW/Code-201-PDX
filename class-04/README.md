@@ -4,13 +4,17 @@
 
 In this class we will be learning about one of the fundamental building blocks in JavaScript: functions! We will also discuss and demonstrate pair programming, and CSS positioning.
 
-## Class Outline
+## Class 04 Agenda
 
-- Code review of previous day's lab assignment
-- Code Demo
-  - Functions
-  - CSS positioning
-- Lab preview and prep
+- Reading 04
+  - Discussion
+- Code review of previous lab assignment, ABOUT ME: adding questions 6 & 7 following lab requirements
+- Code demo
+  - CSS Layout
+  - functions
+- Function practice 
+- Lab 04 preview and prep
+  - pair programming
 
 ## Learning Objectives
 
@@ -28,7 +32,42 @@ In this class we will be learning about one of the fundamental building blocks i
 - Successfully pair program with a fellow student and manage the collaborative and version control aspects of working with Git (from the command line) and GitHub (in the browser).
 - Demonstrate understanding of CSS layout principles including block, inline, normal, relative, absolute, float, and fixed positioning.
 
-## Notes
+## Reading 04
+
+### [Learn HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML){:target="_blank"}
+
+[Creating Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks){:target="_blank"}
+
+1. To create a basic link, we wrap text or other content inside what element?
+1. The `href` attribute contains what information?
+1. What are some ways we can ensure links on our pages are accessible to all readers?
+
+### [CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout){:target="_blank"}
+
+[CSS Layout: Normal Flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow){:target="_blank"}
+[CSS Layout: Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){:target="_blank"}
+
+1. What is meant by "normal flow"?
+1. What are a few differences between `block-level` and `inline` elements?
+1. _______ positioning is the default for every html element.
+1. Name a few advantages to using absolute positioning on an element.
+1. What is a key difference between fixed positioning and absolute positioning?
+
+### [Learn JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript){:target="_blank"}
+
+[Functions -- Reusable Blocks of Code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions){:target="_blank"}
+
+1. Describe the difference between a function declaration and a function invocation.
+1. What is the difference between a parameter and an argument?
+
+### Miscellaneous
+
+[6 Reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/){:target="_blank"}
+
+1. Pick 2 benefits to pair programming and reflect on how these benefits could help you on your coding journey.
+
+
+## Review
 
 1. What is a function?
 
