@@ -26,7 +26,10 @@
        STEP 2: CENTERED PAGE
        ========================= */
 
-
+#main {
+  max-width: 800px;
+  margin: 0 auto; /* centers */
+}
 
           /* =========================
        STEP 3: DISPLAY
@@ -38,7 +41,9 @@
        STEP 4: BOX MODEL
        ========================= */
 
-
+.simple {
+  width: 300px;
+}
 
            /* =========================
        STEP 5: POSITION

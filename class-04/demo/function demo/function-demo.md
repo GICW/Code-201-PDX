@@ -27,7 +27,8 @@ someFunction();
 //we don't need arguments in the function call.
 //but that means the function always does the exact same thing.
 //it will always log 'I wish I had parameters.'
-
+ let num1;
+ let num2;
 //DECLARE a function with parameters
 function multiply(num1, num2) {
  console.log(num1);

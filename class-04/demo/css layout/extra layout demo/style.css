@@ -1,0 +1,75 @@
+/* stylesheet */
+
+#box-1,
+#box-2,
+#box-3 {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+#fancy-box {
+  width: 500px;
+  padding: 50px;
+  border: 10px solid black;
+  background: pink;
+}
+
+#parent {
+  position: relative;
+  height: 200px;
+  background: #ddd;
+  margin: 40px 0;
+}
+#child {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: coral;
+  padding: 10px;
+}
+
+#fixed-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+#float-img {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+#percent-nav {
+  width: 25%;
+  background: lightgreen;
+  padding: 20px;
+}
+
+.inline-box {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background: lavender;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: purple;
+  padding: 20px;
+}
+
+.flex-item {
+  background: orange;
+  padding: 20px;
+}

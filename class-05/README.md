@@ -4,13 +4,24 @@
 
 In this class you will be closing out on the "About Me" quiz project. You will have two other lab assignments due that will help you with CSS and learning a new git workflow using branches.
 
-## Class Outline
+## Class 05 Agenda
 
-- Code Review of previous day's lab assignment
-- Code Demo
-  - Images in HTML
-  - Function review
-- Lab preview and prep
+- Reading 05
+  - Discussion
+- Code review of previous lab assignment, ABOUT ME: adding questions 6 & 7 following lab requirements
+- Code demo
+  - flexbox
+  - image styling
+  - branching 
+- Lab 05 preview and prep
+  - Lab 5a: Fun with Functions
+  - Lab 5b: Finish "about-me"
+  - Lab 5c: CSS Selector Diner
+- Assignments
+  - Review #3
+  - Learning Journal
+  - Submit Reading 05
+
 
 ## Learning Objectives
 
@@ -27,7 +38,33 @@ In this class you will be closing out on the "About Me" quiz project. You will h
 - Apply the use of images, color, and text formatting to style an HTML page.
 - Git repository management through the use of branches and merging.
 
-## Notes
+
+## Reading 05
+### HTML Media
+1. What is a real world use case for the alt attribute being used in a website?
+
+2. How can you improve accessibility of images in an HTML document?
+
+3. Provide an example of when the figure element would be useful in an HTML document.
+
+4. Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+
+5. What image type would you use to display a screenshot on your website and why?
+
+
+### HTML Media
+1. Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+
+2. Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+
+3. What should you consider when choosing fonts for an HTML document?
+
+4. What do font-size, font-weight, and font-style do to HTML text elements?
+
+5. Describe two ways you could add spacing around the characters displayed in an h1 element.
+
+
+## Review
 
 1. The `<img>` tag has what 2 required attributes?
 
