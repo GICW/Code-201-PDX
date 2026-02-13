@@ -64,7 +64,7 @@ In this class you will be closing out on the "About Me" quiz project. You will h
 5. Describe two ways you could add spacing around the characters displayed in an h1 element.
 
 
-## Review
+## End of Class Review
 
 1. The `<img>` tag has what 2 required attributes?
 
