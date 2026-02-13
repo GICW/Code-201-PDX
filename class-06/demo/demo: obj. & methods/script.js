@@ -1,8 +1,4 @@
 /*
-Code 201 - Objects Demo
-Topic: Understanding Objects and "this"
-
-Goal:
 - Learn what objects are
 - Learn how methods work
 - Learn how "this" refers to the object calling the method
@@ -14,7 +10,7 @@ Goal:
 ===================================== */
 
 let dog = {
-  // Properties (data about the object)
+  // Properties (data about the object, "key:value" pairs)
   name: "Geno",
   age: 5,
   color: "white",
