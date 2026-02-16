@@ -18,7 +18,7 @@ let tokyo = {
 
 }
 
-let france = {
+let paris = {
 
 }
 
