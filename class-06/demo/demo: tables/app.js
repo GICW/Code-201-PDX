@@ -1,5 +1,6 @@
 /*
 JavaScript → HTML Table
+🏨 Hotel Guests Per Week
 
 🧠 Big Picture Reminder:
 We are NOT writing HTML in JavaScript.
@@ -17,9 +18,7 @@ RULE:
 // 1️⃣ Use document.getElementById() to grab the div
 //    with the id "tableContainer"
 
-// const container = ____________________;
-
-
+// const container = ______________________________;
 
 
 
@@ -29,13 +28,15 @@ RULE:
 
 // 2️⃣ Create a table element using document.createElement()
 
-// const table = ____________________;
+// const table = ______________________________;
+
 
 // 3️⃣ Attach the table to the container using appendChild()
 
-// container.____________________;
+// container.______________________________;
 
-// Keep in mind...
+
+// Remember:
 // - Create it first
 // - Attach it immediately
 // - Now it exists in the DOM
@@ -48,15 +49,12 @@ RULE:
 
 // 4️⃣ Create a <tr> element for the header row
 
-// const headerRow = ____________________;
+// const headerRow = ______________________________;
+
 
 // 5️⃣ Attach headerRow to the table
 
-// table.____________________;
-
-// Explain:
-// Tables are built row by row
-// Headers are still rows — they just use <th> cells
+// table.______________________________;
 
 
 
@@ -65,58 +63,67 @@ RULE:
 ====================================== */
 
 // 6️⃣ Create an array of headers
-// Example: ['Name', 'Age', 'Favorite Food']
+// Our table needs: Day and Number of Guests
 
-// const headers = ____________________;
+// const headers = ______________________________;
 
 
 // 7️⃣ Loop through the headers array
 
-// for (let i = 0; i < ______; i++) {
+// for (let i = 0; i < ___________________; i++) {
 
 //    Create a <th>
 
+//    const th = ______________________________;
+
 //    Fill it using textContent
+
+//    th.______________________________ = headers[i];
 
 //    Attach it to headerRow
 
+//    headerRow.______________________________;
+
 // }
-
-
-/* =====================================
-   STEP 5: CREATE A DATA ROW
-====================================== */
-
-// 8️⃣ Create a new <tr> for data
-
-// const dataRow = ____________________;
-
-// 9️⃣ Attach dataRow to table
 
 
 
 /* =====================================
-   STEP 6: ADD DATA CELLS (<td>)
+   STEP 5: CREATE HOTEL DATA OBJECT
 ====================================== */
 
-// 🔟 Create an array of data
-// Example: ['Alex', 25, 'Pizza']
+// Create an object called hotel that stores:
+// - name
+// - minGuests
+// - maxGuests
+// - dailyGuests (empty array)
+// - totalGuests (start at 0)
 
-// const rowData = ____________________;
+// const hotel = {
+//   name: ______________________________,
+//   minGuests: ______________________________,
+//   maxGuests: ______________________________,
+//   dailyGuests: ______________________________,
+//   totalGuests: ______________________________
+// };
 
 
-// 1️⃣1️⃣ Loop through rowData
 
-// for (let i = 0; i < ______; i++) {
+/* =====================================
+   STEP 6: RANDOM NUMBER FUNCTION
+====================================== */
 
-//    Create a <td>
+/*
+Create a function called getRandomGuests
+that returns a random number between min and max
+(inclusive)
+*/
 
-//    Set textContent
+// function getRandomGuests(min, max) {
 
-//    Attach to dataRow
+//   return ________________________________________________;
 
 // }
-
 
 
 
@@ -124,35 +131,83 @@ RULE:
    STEP 7: MULTIPLE ROWS (SCALING PATTERN)
 ====================================== */
 
-// 1️⃣2️⃣ Create an array of arrays
-// Example:
-// [
-//   ['Alex', 25, 'Pizza'],
-//   ['Jordan', 30, 'Sushi'],
-//   ['Sam', 22, 'Tacos']
-// ]
+// Create an array of days of the week
 
-// const people = ____________________;
+// const days = ______________________________;
 
 
-// 1️⃣3️⃣ Outer loop → controls rows
+// 1️⃣ Outer loop → controls rows
 
-// for (let i = 0; i < ______; i++) {
+// for (let i = 0; i < ___________________; i++) {
 
 //    Create a <tr>
-//    Attach to table
 
-//    1️⃣4️⃣ Inner loop → controls cells
+//    const row = ______________________________;
 
-//    for (let j = 0; j < ______; j++) {
+//    Attach row to table
 
-//        Create a <td>
-//        Fill it
-//        Attach to the row
+//    table.______________________________;
 
-//    }
+
+//    Generate random guests using the helper function
+
+//    const guests = ______________________________;
+
+
+//    Push guests into hotel.dailyGuests
+
+//    hotel.dailyGuests.______________________________;
+
+
+//    Add guests to totalGuests
+
+//    hotel.totalGuests ______________________________ guests;
+
+
+//    Create first cell for Day
+
+//    const dayCell = ______________________________;
+
+//    dayCell.textContent = ______________________________;
+//    row.______________________________;
+
+
+//    Create second cell for Guests
+
+//    const guestCell = ______________________________;
+
+//    guestCell.textContent = ______________________________;
+//    row.______________________________;
 
 // }
+
+
+
+/* =====================================
+   STEP 8: ADD TOTAL ROW
+====================================== */
+
+// Create a final <tr>
+
+// const totalRow = ______________________________;
+
+// table.______________________________;
+
+
+// Create label cell
+
+// const totalLabel = ______________________________;
+
+// totalLabel.textContent = ______________________________;
+// totalRow.______________________________;
+
+
+// Create value cell
+
+// const totalValue = ______________________________;
+
+// totalValue.textContent = ______________________________;
+// totalRow.______________________________;
 
 
 
@@ -167,10 +222,12 @@ Memorize this order:
 2️⃣ Create table
 3️⃣ Add header row
 4️⃣ Add <th> cells
-5️⃣ Add data rows
-6️⃣ Add <td> cells
-7️⃣ Use loops to scale
+5️⃣ Create object to store data
+6️⃣ Create helper function (random number)
+7️⃣ Loop → generate data → create rows
+8️⃣ Add total row
 */
+
 
 
 /* =====================================
@@ -180,16 +237,7 @@ SIMPLE RULE
 /*
 Tables are built row by row,
 and rows are built cell by cell.
-*/
 
-
-/* =====================================
-   ⚠️ COMMON MISTAKES
-====================================== */
-
-/*
-❌ Forgetting to append elements
-❌ Creating but never attaching
-❌ Mixing <th> and <td>
-❌ Hard-coding instead of looping
+Generate data first.
+Display it second.
 */

@@ -84,7 +84,7 @@ The instructor will have a 15-minute one-on-one meeting with each student during
 
 ------------------------------------------------------------------------
 
-## 🟢 1️⃣ Get the Parent Element
+### 🟢 1️⃣ Get the Parent Element
 
 **Purpose:** Decide where the table will appear on the page.
 
@@ -153,6 +153,49 @@ property access - `appendChild()`
 6.  Add data cells\
 7.  Repeat using a loop
 
+------------------------------------------------------------------------
 
+## Table Elements
 
+<table> → the container
 
+<tr> → a row
+
+<th> → header cell
+
+<td> → data cell
+
+<thead> → header section
+
+<tbody> → body section
+
+<tfoot> → footer section
+
+### Example HTML Table
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Guests</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monday</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>120</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>195</td>
+    </tr>
+  </tfoot>
+</table>
+```
