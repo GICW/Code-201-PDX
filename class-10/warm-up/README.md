@@ -1,6 +1,6 @@
 # Concept Review
 
-Assume you are in a pair programming session, and are the navigator. Your driver for this exercise will be a chatbot of your choice. For each of the lines of code below, provide the (nerdy) english instructions that you would describe to the chatbot so that it will return the code shown.
+Assume you are in a pair programming session, and you are the navigator. Your driver for this exercise will be a chatbot of your choice. For each of the lines of code below, provide the (nerdy) english instructions that you would describe to the chatbot so that it will return the code shown.
 
 For example, if you wanted the chatbot to return this code:
 
