@@ -29,7 +29,7 @@ geno.getAge();
 console.log(geno.age);
 geno.speak();
 geno.walk();
-
+geno.hair;
 
 // = is an assignment
 // == is equality

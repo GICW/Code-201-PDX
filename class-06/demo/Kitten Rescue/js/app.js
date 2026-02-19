@@ -32,6 +32,25 @@ frankie.getAge();
 
 console.log(frankie);
 
+//New kitten
+const jumper ={
+  name: 'jumper',
+  age: 0,
+  interests: ['jumping on couches', 'laser pointers', 'climbing curtains'],
+  isGoodWithKids: true,
+  isGoodWithDogs: true,
+  isGoodWithOtherCats: true,
+  getAge: function () {
+    console.log(this.name);
+    this.age = randomAge(3, 12) + ' months';
+    console.log(this.age);
+  }
+};
+jumper.getAge();
+
+console.log(jumper);
+console.log(jumper.interests);
+
 function randomAge (min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -67,6 +86,15 @@ const img = document.createElement('img');
 img.setAttribute('src', 'images/' + frankie.name + '.jpeg');
 img.setAttribute('alt', 'cute picture of ' + frankie.name + ', who is an orange and white cat. You should really adopt him.');
 article.appendChild(img);
+
+//apend jumper
+const article2= document.createElement('article');
+parentElement.appendChild(article2);
+
+const h2jumper= document.createElement('h2');
+h2jumper.textContent = jumper.name;
+article2.appendChild(h2jumper);
+
 
 // attach those elements to the parent in the DOM.
 

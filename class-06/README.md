@@ -199,3 +199,8 @@ property access - `appendChild()`
   </tfoot>
 </table>
 ```
+1. Find a parent element (hopefully by "id")
+2. Assign that to a variable like "parentElement" or "dogSection" or "container"
+3. Create a new element with document.createElement() -- this creates (<p></p>)
+4. Add text content to that new element (this adds <p>text!</p>)
+5. Append the newly created element to that parent you defined in step 2
