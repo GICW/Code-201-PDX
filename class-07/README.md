@@ -44,7 +44,6 @@ This class will introduce inheritance with constructor functions, plus adding an
 ### HTML Table BasicsLinks to an external site.
 
 1. Why should tables not be used for page layouts?
-
 2. List and describe 3 different semantic HTML elements used in an HTML <table>.
 
 ### Introducing ConstructorsLinks to an external site.
