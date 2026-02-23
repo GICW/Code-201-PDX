@@ -1,10 +1,10 @@
 # The DOM, Domain Modeling, and Introduction to Objects
 
-## Class Outline
+## Class 6 Outline
 
 - Reading 06
   - Discussion
-- Code review of previous lab assignment, ABOUT ME: CSS Diner, Completing "About-me", Lab 5a- Branching
+- Code review of previous lab assignment
 - Code demo
   - Objects & Object Literals
   - Tables in JS
