@@ -64,3 +64,128 @@ This class will introduce inheritance with constructor functions, plus adding an
 2. How does the term `this` differ when reference an object literal versus a Constructor function?
 
 3. What are some HTML elements that make up an HTML table?
+
+## 📊 Steps to Create a Table Using JavaScript and the DOM
+
+------------------------------------------------------------------------
+
+### 🟢 1️⃣ Get the Parent Element
+
+**Purpose:** Decide where the table will appear on the page.
+
+**Method Used:** - `document.getElementById()`
+
+------------------------------------------------------------------------
+
+### 🟢 2️⃣ Create the Table Element
+
+**Purpose:** Create the main table container.
+
+**Methods Used:** - `document.createElement('table')` - `appendChild()`
+
+------------------------------------------------------------------------
+
+### 🟢 3️⃣ Create the Table Header Row
+
+**Purpose:** Create the top row for column titles.
+
+**Methods Used:** - `document.createElement('tr')` - `appendChild()`
+
+------------------------------------------------------------------------
+
+### 🟢 4️⃣ Create Header Cells
+
+**Purpose:** Add column titles to the header row.
+
+**Methods Used:** - `document.createElement('th')` - `.textContent` -
+`appendChild()`
+
+------------------------------------------------------------------------
+
+### 🟢 5️⃣ Create Data Rows
+
+**Purpose:** Add rows to display object or array data.
+
+**Methods Used:** - `document.createElement('tr')` - `appendChild()`
+
+------------------------------------------------------------------------
+
+### 🟢 6️⃣ Create Data Cells
+
+**Purpose:** Add individual pieces of data inside each row.
+
+**Methods Used:** - `document.createElement('td')` - `.textContent` -
+`appendChild()`
+
+------------------------------------------------------------------------
+
+### 🟢 7️⃣ Loop Through Data
+
+**Purpose:** Dynamically generate rows from an array or object data.
+
+**Concepts / Methods Used:** - `for` loop - Array access - Object
+property access - `appendChild()`
+
+------------------------------------------------------------------------
+
+### 🎯 Pattern
+
+1.  Get parent\
+2.  Create table\
+3.  Create header row\
+4.  Add header cells\
+5.  Create data rows\
+6.  Add data cells\
+7.  Repeat using a loop
+
+------------------------------------------------------------------------
+
+## Table Elements
+
+<table> → the container
+
+<tr> → a row
+
+<th> → header cell
+
+<td> → data cell
+
+<thead> → header section
+
+<tbody> → body section
+
+<tfoot> → footer section
+
+### Example HTML Table
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Guests</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monday</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>120</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>195</td>
+    </tr>
+  </tfoot>
+</table>
+```
+1. Find a parent element (hopefully by "id")
+2. Assign that to a variable like "parentElement" or "dogSection" or "container"
+3. Create a new element with document.createElement() -- this creates (<p></p>)
+4. Add text content to that new element (this adds <p>text!</p>)
+5. Append the newly created element to that parent you defined in step 2
