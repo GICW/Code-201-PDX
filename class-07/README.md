@@ -6,7 +6,7 @@ This class will introduce inheritance with constructor functions, plus adding an
 
 ## Class 7 Outline
 
-- Reading 7
+- Reading 07
   - Discussion
 - Code review of previous lab assignment- Salmon Cookies pt.1
 - Demo
@@ -14,7 +14,7 @@ This class will introduce inheritance with constructor functions, plus adding an
   - Prototype methods
   - Dom Manipuation with HTML tables
 - Lab 07 preview and prep
-  - Lab 7:  Salmon Cookies pt.2
+  - Lab 07:  Salmon Cookies pt.2
 - Learning Journal 07
   - Motivation and goals 
 
@@ -33,7 +33,7 @@ This class will introduce inheritance with constructor functions, plus adding an
 
 - Translate an object literal into a constructor function.
 - Use the ‘prototype’ property to extend the inheritable properties and methods of a constructor function.
-- Dynamically build a semantic HTML table with with JavaScript and render it to the DOM.
+- Dynamically build a semantic HTML table with JavaScript and render it to the DOM.
 
 
 ## Reading 07
