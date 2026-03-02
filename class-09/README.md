@@ -10,10 +10,11 @@ In this class you will be learn JavaScript Events and how they can bring interac
   - Discussion
 - Code review of previous lab assignment- Salmon Cookies pt.2
 - Demo
-  - forms & Event Listener
+  - Forms & Event Listener
 - Lab 09 preview and prep
   - Complete Salmon Cookies
 - Learning Journal #9
+- > Consider the “learning pyramid as shown in the image below. Do you find that matches the way that you learn, or would you weight the activities differently? If so, how?
 
 
 ## Learning Objectives
