@@ -35,7 +35,7 @@ In this class you will be learn JavaScript Events and how they can bring interac
 - Add a new row to dynamic data table(s) by storing, computing, and rendering data from the HTML form.
 - Successfully pair-program with a fellow student and manage the collaborative and version control aspects of working with Git (from the command line) and GitHub (in the browser).
 
-# Readings: Forms and JS Events
+## Readings: Forms and JS Events
 
 Below you will find some reading material, code samples, and some additional resources that support the topic for this class and the upcoming lecture.
 
