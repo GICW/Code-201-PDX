@@ -16,7 +16,7 @@ function Kitten (name, interests, isGoodWithKids, isGoodWithDogs, isGoodWithOthe
 // add a method to JavaScript's existing Number class to calcualte "cat years" in relation to human years
 Number.prototype.calculateAgeInHumanYears = function() {
   // the first year of a cat's life is equal to approximately 15 human years
-  return Math.floor(this/12 * 15);
+  
 }
 
 //add a method to JavaScript's existing String object to capatalize first letter of string

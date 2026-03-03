@@ -81,3 +81,22 @@ Review the Submission Instructions for guidance on completing and submitting thi
 1. An `<input>` element can be displayed in many ways, depending on the `_______` attribute.
 
 1. What does `event.preventDefault()` do?
+
+
+### Form Steps
+
+1. build form in HTML
+
+2. Grad form using JS
+
+3. add submit listener
+
+4. Prevent default behavior
+
+5. Get input valuses
+
+6. Create elements
+
+7. Append to the DOM
+
+8. Update or count elements
