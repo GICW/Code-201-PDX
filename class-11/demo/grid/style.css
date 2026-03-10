@@ -1,8 +1,8 @@
 * {
-  background-color: rgb(165, 233, 136);
+  background-color: rgb(205, 227, 196);
 }
 
-/* .parent {
+.parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -25,14 +25,14 @@
       "header header header"
       "nav content ads"
       "footer footer footer";
-  }
-  .nav { grid-area: nav; }
+  } 
+  /* .nav { grid-area: nav; }
   .content { grid-area: content; }
   .ads { grid-area: ads; }
   .header { grid-area: header; }
-  .footer { grid-area: footer; }
+  .footer { grid-area: footer; } */
 
 
   header, footer, nav, aside, article {
-    border: 3px solid rgb(239, 250, 226);
+    border: 3px solid rgb(69, 70, 68);
   }

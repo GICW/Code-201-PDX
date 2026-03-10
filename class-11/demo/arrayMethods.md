@@ -172,7 +172,8 @@ console.log(result);
 
 ## Simple Explanation
 
-`find()` returns **the first match only**.
+`find()` returns **the 
+. match only**.
 
 ------------------------------------------------------------------------
 
