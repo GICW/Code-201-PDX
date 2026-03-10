@@ -10,8 +10,8 @@ function orderDemo() {
   console.clear();
   console.log('--- ORDER OF EXECUTION ---');
 
-  showMsg();
-  msgExpression(); // ❌ This will throw an error
+
+
 
   function showMsg() {
     console.log('I am the showMsg function');
@@ -21,6 +21,7 @@ function orderDemo() {
     console.log('I am the msgExpression function expression');
   };
 }
+
 
 // 2- Scope Demo
 document.getElementById('run-scope').addEventListener('click', scopeDemo);
@@ -36,10 +37,11 @@ function scopeDemo() {
     function privateFunc() {
       const privateVar = 'woof!';
       return doggy + ' says ' + privateVar;
+      console.log(privateVar); 
     }
 
     console.log('doggy is only inside function: ' + doggy);
-    console.log(privateVar); // ❌ ReferenceError
+
 
     return privateFunc();
   }
@@ -64,7 +66,7 @@ function objectDemo() {
   };
 
   console.log(teacherBot.speak());
-  console.log(age); // ❌ ReferenceError
+  console.log(teacherBot.age); 
 }
 
 // 4- Stack Demo
@@ -100,14 +102,17 @@ function errorDemo() {
   console.log('--- ERROR TYPES ---');
 
   // ❌ SyntaxError (commented so file loads)
-  // const name == 'Dan';
+  const name = 'Dan';
 
   // ❌ ReferenceError
   // console.log(notDefinedVar);
 
   // ❌ TypeError
-  const someObj = { a: 10 };
-  someObj.push(20);
+  // const someObj = { a: 10 };
+  // someObj.push(20);
+  // const arr= [];
+  // arr.push(20); //  [20]
+
 
   // ❌ RangeError
   // new Array(-1);
@@ -121,7 +126,7 @@ function tryCatchDemo() {
   console.log('--- TRY / CATCH ---');
 
   try {
-    const someObj = { a: 10 };
+    const someObj = { a: 10, b:20 };
     someObj.push(20); // ❌ TypeError
   } catch (exception) {
     console.log('An error occurred!');
@@ -132,3 +137,5 @@ function tryCatchDemo() {
   }
 }
 
+  // showMsg();
+  // msgExpression();

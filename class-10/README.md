@@ -4,7 +4,7 @@
 
 Learning how to **debug** your code will help you to better identify the errors you see in your console, and how to fix them.
 
-## Class Outline
+## Class 10 Outline
 
 - Reading 10
   - Discussion
