@@ -4,7 +4,7 @@
 
 In this class you will learn how to utilize a 3rd party library so that you can provide a graphical representation of the click data that is being collected from your vote tracker.
 
-## Class Outline
+## Class 12 Outline
 
 - Reading 12
   - Discussion
@@ -14,7 +14,7 @@ In this class you will learn how to utilize a 3rd party library so that you can 
 - Lab 12 preview and prep
   - Odd Duck pt 2 *branch-* **dataviz**
 - Review Quiz #5
-- Learning Journal 11
+- Learning Journal 12
 
 ## Learning Objectives
 
