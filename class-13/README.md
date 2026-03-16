@@ -8,11 +8,12 @@ In this class you will are going to be introduced the concept of persisting appl
 
 - Reading 13
   - Discussion
-- Code review of previous lab assignment- Salmon Cookies- LAB 9
+- Code review of previous lab assignment- Odd Duck pt. 2
 - Demo
   - JSON
   - Local storage
 - Lab preview and prep
+  - Odd Duck pt. 3
 - Career: Class 13- Stage Fright
 - Leaerning Journal 13
 
