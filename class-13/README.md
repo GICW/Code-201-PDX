@@ -53,7 +53,7 @@ In this class you will are going to be introduced the concept of persisting appl
 
 ---
 
-## 📦 Local Storage & JSON – Common Student Questions
+## 📦 Local Storage & JSON – FAQ
 
 After learning about **Local Storage** and **JSON**, students often have similar questions.  
 This guide summarizes common questions and clear answers.
