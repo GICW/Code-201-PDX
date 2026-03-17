@@ -41,7 +41,7 @@ In this class you will are going to be introduced the concept of persisting appl
 2. What information should not be stored in local storage?
 3. Local storage can store what type of data? How would you convert it to that type before storing?
 
-## Notes
+## End of class review
 
 1. What is JSON?
 
