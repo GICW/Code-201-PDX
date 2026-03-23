@@ -20,12 +20,24 @@ As a result of completing Lecture 15 of Code 201, students will:
 - Locate and utilize resources for self-study before beginning Code 301.
 - Define a team agreement and establish collaborative process with a team.
 
-## Class Outline
+## Class 15 Outline
 
-- Code Review
-- Code 301 Preview
-- Agile concepts
-- Final Project Overview
+- Final questions
+  - Discussion
+- Go over previous lab (Lab 14)
+  - Review / Clarify points
+- 301 Entrance Exam
+- Lab Preview and Prep
+  - Lab 15a: Merge Conflicts
+  - Lab 5b: Finish Odd Duck 
+- Classwork
+  - Partner Power Hour 15- Report #3
+  - Feedback Wk #3
+  - Project Prep #1
+  - Project Prep #2
+  - Project Prep #3
+  - Project Prep #4
+
 
 ## Notes
 
