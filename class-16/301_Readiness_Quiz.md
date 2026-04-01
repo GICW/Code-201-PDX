@@ -216,13 +216,6 @@ B. Skips iteration
 C. Restarts loop
 D. Ends function
 
-16. What does continue do in a loop?
-
-A. Stops loop
-B. Skips iteration
-C. Restarts loop
-D. Ends function
-
 17. What happens when accessing a let variable before declaration?
 
 A. Returns undefined
@@ -247,7 +240,7 @@ D. NaN
 20. Why must objects be stringified for localStorage?
 
 A. Storage limits
-B. Only strings allowed
+B. Only strings allowed     
 C. Arrays only
 D. Security
 
